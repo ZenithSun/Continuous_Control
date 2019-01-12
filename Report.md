@@ -30,6 +30,10 @@ learning rate of the actor = 2e-4 <br />
 learning rate of the critic = 2e-4 <br />
 L2 weight decay = 0 <br />
 
+## Training Result
+<img src="assets/Training_Result.png" width="45%" align="top-left" alt="" title="Optimal Action Value Function" />
+The agents were able to solve task in 182 episodes with a final average score of 30.05.
 
-## Training and Test Result
-
+## Future Improvements and Plans
+- **Fine Tune Parameters** &mdash;According to the training result chart, we can see after agent solved the task, the average scores goes down again with large variance, which means this agent is not very stable yet. Usually by tuning the parameters such as the number of the time steps to update the critic target network, learning rate etc., we could get a better and more stable result.
+- **Try to solve 2nd version project** &mdash; Use methodologies such as PPO, D3PG or D4PG to train 20 agents simultaneously must be fun.
