@@ -24,7 +24,7 @@ For this project, there are two separate versions of the Unity environment:
 
 The second version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.06347.pdf), [A3C](https://arxiv.org/pdf/1602.01783.pdf), and [D4PG](https://openreview.net/pdf?id=SyZipzbCb) that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.  
 
-**For this repository, the First Version problem is solved**
+**For this repository, the First Version problem is solved.**
 
 
 ### Solving the Environment
