@@ -16,9 +16,9 @@ In the previous [assignment](https://github.com/ZenithSun/Banana_Navigation/blob
 
 - **Critic Network**
 
-33(*Observation Input*) -> 128(*fully connected hidden layer1'*) ->
+33(*Observation Input*) -> 128(*fully connected hidden layer1'*) + 4(*Actions Output*)->
 
-128(*fully connected hidden layer2‘*) + 4(*Actions Output*) -> 1(*Output*)
+128(*fully connected hidden layer2‘*)  -> 1(*Output*)
 
 - **Hyperparameters**
 
